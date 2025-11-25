@@ -1,0 +1,46 @@
+@charset "UTF-8";
+body .memo-card {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 25px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #fffce6;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+}
+
+body .memo-card h1 {
+    text-align: center;
+    color: #222;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+body .memo-card p {
+    margin: 12px 0;
+    font-size: 1rem;
+    color: #444;
+}
+
+body .memo-card p strong {
+    display: inline-block;
+    width: 90px;
+    color: #333;
+}
+
+body .memo-card a {
+    display: inline-block;
+    margin: 20px auto 0 auto;
+    padding: 8px 18px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+body .memo-card a:hover {
+    background-color: #0056b3;
+}
